@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato";
+}
+
+.header {
+    height: 100vh;
+    background-image: url("./pexels-olga-lioncat-7245333.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.wrapper {
+    height: 100%;
+    max-width: 1250px;
+    margin: auto;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    padding-top: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
+}
+
+.header-button {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.menu-title {
+    text-align: center;
+    padding-top: 250px;
+}
+
+.menu-text {
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+.menu-button {
+    background-color: white;
+    color: rgb(7, 2, 2);
+    text-decoration: none;
+    padding: 15px 40px;
+}
+
+.header-button:hover {
+    color: gold;
+}
