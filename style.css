@@ -70,3 +70,44 @@ body {
 .header-button:hover {
     color: gold;
 }
+
+.about {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    width: 350px;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.about-information {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+
+.about-button {
+    display: block;
+    width: 160px;
+    padding: 25px 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    text-decoration: none;
+    margin-left: 80px;
+}
+
+.about-button:hover {
+    background-color: grey;
+}
